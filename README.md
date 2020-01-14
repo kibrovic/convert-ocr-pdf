@@ -32,9 +32,6 @@ PathToScript/convert.sh deu+heb
 
 If it happens to throw an error, try commenting the policy map in `/etc/ImageMagick-6/policy.xml`. If `tesseract-ocr` is version **4** or higher, use `pdfsandwich` version **0.1.7** or higher
 
-Number of threads set to 1 due to issues with tesseract getting stuck when leaving default settings.
-
-
 # Alternative - gImageReader
 
 Graphical GTK+ front-end for `tesseract-ocr` for converting images and pdf-s to searchable docs.
